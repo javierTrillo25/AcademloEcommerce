@@ -1,5 +1,5 @@
 .header{
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: stretch;
     position: sticky;
@@ -9,6 +9,7 @@
     border-bottom: 1px solid var(--color-gray);
     background-color: white;
     z-index: 2;
+    
 }
 
 .header_pageName{

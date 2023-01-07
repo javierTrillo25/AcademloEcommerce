@@ -5,7 +5,7 @@ import "./styles/Header.css"
 const Header = () => {
     return (
     <header className='header'>
-        <NavLink className="header_pageName" to="/" ><h1>E-Commerce</h1></NavLink>
+        <NavLink className="header_pageName" to="/pre" ><h1>E-Commerce/Home</h1></NavLink>
         <ul className='header_nav'>
             <li className='header_link'><NavLink to="/login"><i className='bx bxs-user-circle'></i></NavLink></li>
             <li className='header_link'><NavLink to="/purchases"><i className='bx bx-box'></i></NavLink></li>
