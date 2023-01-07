@@ -1,0 +1,24 @@
+footer {
+    background-color: rgba(245, 245, 220, 0.67) ;
+    color:black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: double;
+    color: white
+}
+
+.fIcons{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.fIcon{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

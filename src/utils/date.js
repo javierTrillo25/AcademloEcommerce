@@ -1,0 +1,9 @@
+export const changeDate = (oldFormat) => {
+    const newDate= new Date(oldFormat)
+    const options ={
+        year: "numeric",
+        month:"long",
+        day:"2-digit"
+    }
+    return newDate.toLocaleDateString("es-Es", options)
+}
